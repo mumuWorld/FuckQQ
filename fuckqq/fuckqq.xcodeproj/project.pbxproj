@@ -19,6 +19,10 @@
 		AEA873B41F15CF39005AE597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA873B21F15CF39005AE597 /* Main.storyboard */; };
 		AEA873B61F15CF39005AE597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA873B51F15CF39005AE597 /* Assets.xcassets */; };
 		AEA873B91F15CF39005AE597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA873B71F15CF39005AE597 /* LaunchScreen.storyboard */; };
+		AEB6BB131F1C54A0009F3AE0 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6BB121F1C54A0009F3AE0 /* MainTabViewController.swift */; };
+		AEB6BB151F1C5542009F3AE0 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6BB141F1C5542009F3AE0 /* ControlViewController.swift */; };
+		AEB6BB181F1C6151009F3AE0 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6BB171F1C6151009F3AE0 /* RandomColor.swift */; };
+		AEEF0D361F1C50EB00E02AA6 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF0D351F1C50EB00E02AA6 /* LeftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		AEA873B51F15CF39005AE597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA873B81F15CF39005AE597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA873BA1F15CF39005AE597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB6BB121F1C54A0009F3AE0 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabViewController.swift; path = login/MainTabViewController.swift; sourceTree = "<group>"; };
+		AEB6BB141F1C5542009F3AE0 /* ControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		AEB6BB171F1C6151009F3AE0 /* RandomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
+		AEEF0D351F1C50EB00E02AA6 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 			children = (
 				AE2B43A91F162AA200D21E46 /* HYKeychainHelper */,
 				AE2B43A51F16058700D21E46 /* CommonTools.swift */,
+				AEB6BB171F1C6151009F3AE0 /* RandomColor.swift */,
 			);
 			name = tools;
 			sourceTree = "<group>";
@@ -121,6 +130,7 @@
 		AEA873AD1F15CF39005AE597 /* fuckqq */ = {
 			isa = PBXGroup;
 			children = (
+				AEEF0D341F1C508500E02AA6 /* main */,
 				AEA4DEA71F175E42008AB2E0 /* resource */,
 				AE2B43A71F160A9E00D21E46 /* fuckqq.entitlements */,
 				AE2B43A41F16056E00D21E46 /* tools */,
@@ -134,6 +144,16 @@
 				AEA873BA1F15CF39005AE597 /* Info.plist */,
 			);
 			path = fuckqq;
+			sourceTree = "<group>";
+		};
+		AEEF0D341F1C508500E02AA6 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6BB141F1C5542009F3AE0 /* ControlViewController.swift */,
+				AEEF0D351F1C50EB00E02AA6 /* LeftViewController.swift */,
+				AEB6BB121F1C54A0009F3AE0 /* MainTabViewController.swift */,
+			);
+			name = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +240,12 @@
 				AE2B43A61F16058700D21E46 /* CommonTools.swift in Sources */,
 				AEA873B11F15CF39005AE597 /* ViewController.swift in Sources */,
 				AE2B43A21F15F9B300D21E46 /* UserData.swift in Sources */,
+				AEEF0D361F1C50EB00E02AA6 /* LeftViewController.swift in Sources */,
+				AEB6BB181F1C6151009F3AE0 /* RandomColor.swift in Sources */,
 				AE2B43AD1F162AA200D21E46 /* HYKeychainItem.swift in Sources */,
 				AEA873AF1F15CF39005AE597 /* AppDelegate.swift in Sources */,
+				AEB6BB151F1C5542009F3AE0 /* ControlViewController.swift in Sources */,
+				AEB6BB131F1C54A0009F3AE0 /* MainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

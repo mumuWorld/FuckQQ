@@ -15,10 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var isLogined:Bool?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let registerVC:RegisterViewController = RegisterViewController()
-        self.window?.rootViewController = registerVC
+//        let registerVC:RegisterViewController = RegisterViewController()
+//        self.window?.rootViewController = registerVC
+//        self.window?.makeKeyAndVisible()
+        
+        let controlVC:ControlViewController? = ControlViewController()
+        self.window?.rootViewController = controlVC
         self.window?.makeKeyAndVisible()
-
+        
         return true
     }
 
